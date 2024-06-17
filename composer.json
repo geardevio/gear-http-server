@@ -1,0 +1,16 @@
+{
+  "name": "geardev/http-server",
+  "description": "Http server. Part of toolkit to boost your development with Laravel and geardev.io",
+  "autoload": {
+    "psr-4": {
+      "GearDev\\HttpServer\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "GearDev\\HttpServer\\GearHttpServerServiceProvider"
+      ]
+    }
+  }
+}
